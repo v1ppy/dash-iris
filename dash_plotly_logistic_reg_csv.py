@@ -168,6 +168,7 @@ def display_uploaded_table(contents):
         style_table={'overflowX': 'auto'},
         style_cell={'textAlign': 'left', 'minWidth': '100px', 'whiteSpace': 'normal'}
     )
+server = app.server
 if __name__ == '__main__':
     app.run(debug=True, host = "0.0.0.0", port=8050)
 
